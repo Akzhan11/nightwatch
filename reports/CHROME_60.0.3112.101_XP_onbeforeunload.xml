@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="onbeforeunload"
+    errors="1" failures="0" hostname="" id="" package="onbeforeunload" skipped="1"
+    tests="3" time="3.692" timestamp="Thu, 24 Aug 2017 05:40:20 GMT">
+  
+    <testcase name="go to page with unload handler" classname="onbeforeunload" time="3.689" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="navigate away from page WITH unload handler" classname="onbeforeunload" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Google Page Object / Demo Google search test using page objects]:
+
+  TypeError: Cannot read property 'home' of undefined
+    at Object.Demo Google search test using page objects (C:\project\tests\googlePageObject.js:4:31)
+    at Module.call (C:\project\nightwatch\lib\runner\module.js:62:34)
+    at C:\project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+  Error while running [Onbeforeunload / navigate away from page WITH unload handler]:
+
+  TypeError: client.hasOnBeforeUnload is not a function
+    at Object.navigate away from page WITH unload handler (C:\project\tests\onbeforeunload.js:18:8)
+    at Module.call (C:\project\nightwatch\lib\runner\module.js:62:34)
+    at C:\project\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\project\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\project\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\project\nightwatch\node_modules\q\q.js:796:13)
+    at C:\project\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\project\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\project\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="go to nightwatch" classname="onbeforeunload">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
